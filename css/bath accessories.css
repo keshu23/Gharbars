@@ -1,0 +1,110 @@
+
+
+.container {
+    margin: 0;
+    justify-content: space-around;
+    margin: 1px;
+    margin-top: 30px;
+}
+
+p {
+    padding-left: 30px;
+    color: brown;
+    font-weight: bold;
+    font-size: 1.2rem;
+   
+}
+
+/* tiles heading */
+.heading_btn {
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.heading_btn button {
+
+    justify-content: center;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 30px 30px white;
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    
+}
+.heading_btn button:hover{
+    
+    background-color: grey;
+}
+
+.heading_btn button a {
+    text-decoration: none;
+}
+
+.heading_btn button a:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    
+}
+
+/* --------------------------------------------------------------- */
+
+/* boxes */
+.box .btn {
+
+    text-align: center;
+    padding-top: px;
+    
+}
+.btn button {
+
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+}
+.btn button:hover{
+    background-color: grey;
+    
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-transform: capitalize;
+}
+button a {
+    color: white;
+    
+}
+
+button a:hover{
+    color: black;
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-transform: capitalize;
+}
+
+.box-1 {
+    display: flex;
+    padding-bottom: 80px;
+}
+.box-1 .box {
+
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+  }
+  .box-1 .box img {
+    width: 250px;
+    height: 220px;
+    border:  1px solid black;
+    margin-left: 30px;
+
+   
+  }
+  

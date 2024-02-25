@@ -1,0 +1,81 @@
+body {
+  
+  background-size: cover;
+  margin: 10px;
+}
+.container {
+  height: 90vh;
+  margin: 10px;
+}
+h2 {
+  text-align: center;
+  padding: 5px;
+  color: black;
+  text-decoration: underline;
+  font-size: 4.0em;
+ padding-top: 5vh;
+}
+
+h3 {
+  color: brown;
+  text-decoration: underline;
+  font-size: 5.0em;
+  padding-bottom: 10vh
+}
+
+p {
+  font-size: 4.0em;
+  color: #432818;
+  font-weight: bold;
+}
+
+
+/* top shape divider */
+.custom-shape-divider-top-1708350854 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1708350854 svg {
+    position: relative;
+    display: block;
+    width: calc(164% + 1.3px);
+    height: 300px;
+}
+
+.custom-shape-divider-top-1708350854 .shape-fill {
+    fill: #F8E71C;
+}
+
+
+/* ------------------- */
+
+
+
+/* bottom shape divider */
+.custom-shape-divider-bottom-1708350603 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1708350603 svg {
+    position: relative;
+    display: block;
+    width: calc(173% + 1.3px);
+    height: 50vh;
+}
+
+.custom-shape-divider-bottom-1708350603 .shape-fill {
+    fill: orange;
+}
+
+/* ------------------------------------- */

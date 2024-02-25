@@ -1,0 +1,143 @@
+.product_container .heading {
+  background-color: grey;
+  height: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 7vh;
+  border: 5px solid cyan;
+}
+
+.product_container .heading h1 {
+  width: 8vw;
+  height: 5vh;
+  margin-left: 48%;
+
+  text-align: center;
+  padding-top: 25px;
+
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 10px 20px 5px orange;
+
+  font-size: bold;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: white;
+}
+.product_container .product_container-1 {
+  width: 100%;
+
+  justify-content: center;
+
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+/* ---------------------------------------- */
+/* ----------------------------------------- */
+/* box-1 */
+.product_container-1 .box-1 {
+  width: 100vh;
+  height: 50%;
+  display: flex;
+  padding: 5vw;
+
+  margin-top: 2vh;
+
+  margin-bottom: 2vh;
+}
+
+.product_container-1 .box-1 .box {
+  margin: 0vw 5vw 0vw 5vw;
+  justify-content: space-evenly;
+  width: 20vw;
+  height: 500px;
+}
+.box-1 .box img {
+  width: 20vw;
+  height: 500px;
+
+  border: 3px solid orange;
+  box-shadow: 20px 10px 20px 20px grey;
+  margin: 25px;
+}
+
+/* -------------------------- */
+/* -------------------------- */
+/* box-2 */
+
+.product_container-1 .box-2 {
+  width: 100vh;
+  height: 50%;
+  display: flex;
+  padding: 5vw;
+
+  margin-top: 2vh;
+
+  margin-bottom: 2vh;
+}
+
+.product_container-1 .box-2 .box {
+  margin: 0vw 5vw 0vw 5vw;
+  justify-content: space-evenly;
+  width: 20vw;
+  height: 500px;
+}
+.box-2 .box img {
+  width: 20vw;
+  height: 500px;
+
+  border: 3px solid orange;
+  box-shadow: 20px 10px 20px 20px grey;
+  margin: 25px;
+}
+
+/* ----------------------- */
+/* box-3 */
+
+.product_container-1 .box-3 {
+  width: 100vh;
+  height: 50%;
+  display: flex;
+  padding: 5vw;
+
+  margin-top: 2vh;
+
+  margin-bottom: 2vh;
+}
+
+.product_container-1 .box-3 .box {
+  margin: 0vw 5vw 0vw 5vw;
+  justify-content: space-evenly;
+  width: 20vw;
+  height: 500px;
+}
+.box-3 .box img {
+  width: 20vw;
+  height: 500px;
+
+  border: 3px solid orange;
+  box-shadow: 20px 10px 20px 20px grey;
+  margin: 25px;
+}
+/* ----------------------------------------------- */
+
+/* ------------------------------------------------------- */
+.btn button {
+  padding: 5px;
+  width: 200px;
+}
+
+.box a {
+  text-align: center;
+}
+.box p {
+  font-size: 2.5em;
+  text-align: center;
+  color: purple;
+  font-weight: bold;
+}
+
+.btn button {
+  margin-top: 0px;
+}

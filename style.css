@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.sliding-image img {
+
+  background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* Adjust layout and font sizes for small screens */
+  body {
+    font-size: 16px;
+    /* Adjust the font size for readability on small screens */
+  }
+
+  /* Add more styles for small screens here */
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /* Adjust layout and font sizes for tablets */
+  body {
+    font-size: 18px;
+    /* Adjust the font size for tablets */
+  }
+
+  /* Add more styles for tablets here */
+}
+
+/* Styles for desktop and laptops */
+@media only screen and (min-width: 992px) {
+
+  /* Adjust layout and font sizes for larger screens */
+  body {
+    font-size: 20px;
+    /* Adjust the font size for desktops and laptops */
+  }
+
+  /* Add more styles for desktops and laptops here */
+}

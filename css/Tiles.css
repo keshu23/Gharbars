@@ -1,0 +1,100 @@
+
+
+.tiles_container {
+    margin: 0;
+    justify-content: space-around;
+    margin: 1px;
+    margin-top: 30px;
+}
+
+/* tiles heading */
+.tiles_heading_btn {
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.tiles_heading_btn button {
+
+    justify-content: center;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 30px 30px white;
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    
+}
+.tiles_heading_btn button:hover{
+    
+    background-color: grey;
+}
+
+.tiles_heading_btn button a {
+    text-decoration: none;
+}
+
+.tiles_heading_btn button a:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    
+}
+
+/* --------------------------------------------------------------- */
+
+/* boxes */
+.box .btn {
+
+    text-align: center;
+    
+}
+.btn button {
+
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+}
+.btn button:hover{
+    background-color: grey;
+    
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-transform: capitalize;
+}
+button a {
+    color: white;
+    
+}
+
+button a:hover{
+    color: black;
+    font-weight: bold;
+    font-size: 1.0rem;
+    text-transform: capitalize;
+}
+
+.box-1 {
+    display: flex;
+}
+.box-1 .box {
+
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+  }
+  .box-1 .box img {
+    width: 250px;
+    height: 220px;
+    border:  1px solid black;
+    margin-left: 30px;
+
+   
+  }
+  
